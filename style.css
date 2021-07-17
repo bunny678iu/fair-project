@@ -1,8 +1,3 @@
-.footer {
-    background-color: DarkRed;
-    text-align: center;
-}
-
 .bold {
     font-weight: bold;
 }
@@ -41,7 +36,7 @@ nav {
 }
 
 a {
-    color: LightPurple;
+    color: #e48aff;
 }
 
 .jumbotron {
@@ -57,7 +52,6 @@ body {
 }
 
 footer {
-    background-color: Purple;
     font-family: Helvetica;
     text-align: center;
 }
@@ -73,7 +67,7 @@ iframe {
 
 hr {
     background-color: Thistle;
-    height: 8px;
+    height: 5px;
 }
 
 img {
@@ -87,4 +81,14 @@ img {
 
 .future-plans {
     background-color: #4d004d;
+}
+
+.dropdown {
+    background-color: black;
+    color: white;
+}
+
+.months {
+    text-align: center;
+    font-weight: bold;
 }
