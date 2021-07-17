@@ -1,12 +1,14 @@
-.bold {
-    font-weight: bold;
-}
-
 table{
     width: 100%;
     padding: 10px 10px 10px 10px;
-    background-color: LightBlue;
+    background-color: #e0c5e8;
     color: black;
+}
+
+thead {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 .review {
@@ -84,8 +86,7 @@ img {
 }
 
 .dropdown {
-    background-color: black;
-    color: white;
+    background-color: Purple;
 }
 
 .months {
