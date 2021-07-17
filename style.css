@@ -1,5 +1,5 @@
 nav {
-	background-color: darkorange;
+	background-color: darkorchid;
 }
 
 a {
@@ -13,4 +13,9 @@ body {
 
 .jumbotron {
 	color: black;
+}
+
+img {
+    border: 5px solid #d580ff;
+    width: 100%;
 }
