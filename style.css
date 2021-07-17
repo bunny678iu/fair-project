@@ -1,18 +1,110 @@
+.months {
+    border: 4px solid black;
+    display: inline-block;
+    font-size: 20px;
+    text-align: top right;
+}
+
+.filter {
+    filter: grayscale(100%);
+}
+
+.interaction:hover{
+    height: 350px;
+    transition: 3s;
+}
+
+.animation {
+    animation: contrastFilter 20s forwards;
+}
+
+@keyframes contrastFilter {
+    from {
+        filter: contrast(5%);
+    }
+    
+    to {
+        filter: contrast(90%);
+    }
+}
+
+.footer {
+    background-color: DarkRed;
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+table{
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    background-color: LightBlue;
+    color: black;
+}
+
+.review {
+    text-align: center;
+}
+
+.definition {
+    text-align: right;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.symptoms {
+    float: right;
+    height: 400px;
+}
+
+.candidates {
+    float: right;
+    height: 450px;
+}
+
+
 nav {
-	background-color: darkorchid;
+    background-color: Purple;
+    font-weight: bold;
 }
 
 a {
-	color: white;
-}
-
-body {
-	color: white;
-	background-color: darkred;
+    color: white;
 }
 
 .jumbotron {
-	color: black;
+    text-align: center;
+    background-color: Thistle;
+    font-style: italic;
+    color: black;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    background-color: Purple;
+    font-weight: bold;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+.majors {
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+}
+
+hr {
+    background-color: Thistle;
+    height: 15px;
 }
 
 img {
@@ -20,7 +112,10 @@ img {
     width: 100%;
 }
 
-iframe {
-    width: 100%;
-    height: 500px;
+.high-school {
+    background-color: Red;
+}
+
+.future-plans {
+    background-color: #4d004d;
 }
