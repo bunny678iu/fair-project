@@ -5,10 +5,17 @@ table{
     color: black;
 }
 
-thead {
+th {
     text-align: center;
+}
+
+thead {
     font-weight: bold;
     font-size: 25px;
+}
+
+.tbheader {
+    text-align: center;
 }
 
 .review {
@@ -92,5 +99,5 @@ img {
 .months {
     text-align: center;
     font-weight: bold;
-    font-size: 25px:;
+    font-size: 35px:;
 }
